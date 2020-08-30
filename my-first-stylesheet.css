@@ -1,0 +1,193 @@
+/*FILE MODIFIED ON 23/8/20 @ 20:20 KST */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	background-color: thistle;
+	color: #111111;
+	font-family: 'Anton', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1024px;
+	min-width: 256px;
+	padding-top: 8px;
+	padding-bottom: 24px;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+html {
+	background: radial-gradient(circle, SkyBlue, SkyBlue 50%, LightCyan 50%, SkyBlue);
+	background-size: 8x 8px;
+}
+
+body, section, img {
+	border: 2px solid Grey;
+	border-radius: 16px;
+}
+
+header {
+	background-color: #F45556;
+}
+
+nav {
+	background-color: #FCAB68;
+}
+
+article {
+	background-color: #FFD239;
+}
+
+section {
+	background-color: #88BB75;
+	margin-bottom: 14px;
+	min-height: 320px;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+@media all and (min-width: 990px)
+{
+article {
+	float: left;
+	width: 66%;
+}
+aside {
+	float: left;
+	padding-left: 24px;
+	width: 34%;
+}
+footer {
+	clear: both;
+}
+}
+
+
+aside {
+	background-color: #1EAADDF;
+}
+
+footer {
+	background-color: #BA99C0
+}
+
+img {
+	background-color: white;
+}
+
+img.small {
+	height: 200px;
+	float: left;;
+	margin-bottom: 24px;
+	margin-right: 24px;
+}
+
+img.medium {
+	max-width: 360px;
+	width: 50%;
+}
+
+img.large {
+	width: 100%;
+}
+
+header p {
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 0px;
+}
+
+header h1 {
+	font-size: 16px;
+	text-align: right;
+}
+
+footer p.copyright {
+	float: left;
+	margin-top: 0px;
+}
+
+footer p.contact {
+	text-align: right;
+}
+
+nav ul {
+	list-style-type: none;
+	border: 4px solid black;
+	border-radius: 10px;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 16px;
+}
+
+nav ul li {
+	display: inline;
+	border-right: 2px solid black;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+nav ul li:last-child {
+	border-right: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+nav li.selected {
+	color: #606060;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+p.top-tip {
+	border:4px solid cyan;
+	border-radius: 10px;
+	padding: 16px;
+	background-color: #C5EBFB;
+}
+
+p.top-tip::before {
+	color: black;
+	content:"TOP TIP: ";
+	font-weight: bold;
+}
+
+table {
+	font-size: 90%;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid #111111;
+	padding: 8px;
+	text-align: left;
+}
+
+th {
+	background-color: #FCAB68;
+}
+
+td {
+	background-color: #BA99C0;
+	color: white;
+}
+
+/* FILE MODIFiED ON 25/8/20 @ 16:05 KST */
+
+/* FILE MODIFIED ON 26/8/20 @ 12:40 KST */
+
+/* FILE MODIFIED ON 28/8/20 @ 13:45 KST */
